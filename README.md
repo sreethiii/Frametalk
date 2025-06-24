@@ -15,8 +15,8 @@
 ---
 
 ## 🗂 Folder Structure
+
 Frametalk/
-│
 ├── Frametalk.py # Main Flask application
 ├── requirements.txt # List of dependencies
 │
@@ -29,7 +29,8 @@ Frametalk/
 ├── yolo5n.pt # YOLOv5n model weights (not pushed to GitHub)
 ├── yolo5s.pt
 ├── yolo5su.pt
-├── yolov8m.pt / yolov8m.onnx
+├── yolov8m.pt
+├── yolov8m.onnx
 
 # 🛠 Installation
 
