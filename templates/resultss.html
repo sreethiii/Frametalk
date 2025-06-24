@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Results</title>
+</head>
+<body>
+    <h1>Detected Products</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <strong>{{ product.name }}</strong>: <a href="{{ product.link }}" target="_blank">Buy Here</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="/">Upload Another Image</a>
+</body>
+</html>

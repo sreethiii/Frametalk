@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processed Image</title>
+</head>
+<body>
+    <h1>Processed Image</h1>
+    <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Processed Image">
+    <a href="{{ url_for('index') }}">Upload another image</a>
+
+</body>
+</html>

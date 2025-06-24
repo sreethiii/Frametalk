@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection and Similarity Search</title>
+</head>
+<body>
+    <h1>Upload Image for Object Detection and Similar Item Search</h1>
+    <form action="/detect" method="POST" enctype="multipart/form-data">
+        <label for="object_name">Object Name:</label>
+        <input type="text" name="object_name" required><br><br>
+
+        <label for="image">Upload Image:</label>
+        <input type="file" name="image" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

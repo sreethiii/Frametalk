@@ -1,0 +1,26 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Model weights
+*.pt
+*.onnx
+*.weights
+
+# Uploads and runtime data
+uploads/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
